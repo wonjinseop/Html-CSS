@@ -1,59 +1,198 @@
 @import url(../../common.css);
 
 body {
-  background: #666;
-  font-size: 14px;
-  color: #000;
-  font-family: '굴림', serif;
+  font-size: 18px;
+  background: gray;
 }
 
-body div {
-  width: 70%;
-  margin: 0 auto;
+#wrapper {
   background: #fff;
+  font-family: '굴림', serif;
+  width: 1500px;
+  margin: 0 auto 0;
+}
+
+.container .side-menu {
+  float: left;
+  width: 25%;
+}
+
+.container .main-content {
+  float: left;
+  width: 50%;
+}
+
+.container .banner {
+  padding: 10px;
+  float: right;
+  width: 25%;
 }
 
 header {
   background: orange;
-  padding: 10px;
-  text-align: center;
+  font-family: 'jua', cursive;
+  color: #fff;
 }
 
 header h1 {
-  padding: 10px;
-  font-size: 50px;
-  color: #fff;
-  font-weight: bold;
-  font-family: 'jua', cursive;  
-}
-
-header h1 span {
-  font-size: 0.3em;
-}
-
-.stit {
-  background: lightgray;
-  padding: 10px;
-  font-size: 0.7em;
+  margin: 0 auto 0;
+  padding: 50px 0px 70px;
+  font-size: 7em;
+  line-height: 0.5;
   text-align: center;
+  position: relative;
 }
 
-.container .side-menu {
-  width: 33.33%;
-  float: left;
+#wrapper header h1 span {
+  font-size: 19%;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
 }
 
-.container .banner {
-  width: 33.33%;
-  float: right;
+#wrapper .stit {
+  background: lightgray;
+  font-size: 14px;
+  text-align: center;
+  padding: 5px 0;
 }
 
-.container div {
-  width: 33.33%;
-}
-
-.container .side-menu h3 {
+.side-menu h3 {
   background: #800;
   color: #fff;
-  padding: 3px;
+  font-family: '고딕', sans-serif;
+  font-weight: bold;
+  padding: 9px;
+}
+
+.side-menu ul {
+  padding: 10px;
+  line-height: 2;
+}
+
+.side-menu ul li {
+  text-decoration: underline;
+  font-family: '굴림', serif;
+}
+
+.side-menu ul li a:hover {
+color: blue;
+}
+
+.main-content {
+  background: rgb(226, 226, 226);
+  padding: 10px;
+  font-family: '굴림', serif;
+}
+
+.title {
+  background: rgb(13, 51, 66);
+  color: #fff;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.title a:hover {
+  color: yellow;
+  font-size: 1.2em;
+}
+
+.artist {
+  color: rgb(13, 51, 66);
+  font-family: '굴림', serif;
+  font-weight: bold;
+  padding: 20px 0 0;
+}
+
+.detail {
+  font-size: 70%;
+  padding: 20px 0;
+}
+
+.padding {
+  padding: 20px 0 0;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner h3 {
+  font-family: '굴림', serif;
+
+  font-size: 1.3em;
+  position: relative;
+}
+
+.banner h3 span {
+  text-decoration: underline;
+}
+
+.banner .all{
+  color: rgb(146, 146, 146);
+  font-weight: bold;
+}
+
+.banner .love {
+  color: orange;
+  font-weight: bold;
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+
+.banner strong {
+  position: absolute;
+  font-weight: bold;
+  top: 80px;
+  left: 0;
+}
+
+.banner .link {
+  position: absolute;
+  top: 150px;
+}
+
+.link li {
+  font-family: '굴림', serif;
+  padding: 30px 0 10px;
+  position: relative;
+}
+
+.link li a {
+  text-decoration: underline;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.link li a:hover {
+  color: blue;
+  font-size: 1em;
+}
+
+.link li span {
+  position: absolute;
+  width: 300px;
+  font-size: 0.9em;
+  top: 55px;
+  left: 0;
+}
+
+#wrapper footer {
+  background: rgb(13, 51, 66);
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+#wrapper footer a {
+  text-decoration: underline;
+}
+
+#wrapper footer a:hover {
+  font-size: 0.9em;
+  color: yellow;
 }
